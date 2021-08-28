@@ -6,7 +6,7 @@ export type Message = {
     member: Object,
     content: String,
     timestamp: Date,
-    editedTimestamp: Date,
+    editedTimestamp: Number,
     tts: Boolean,
     mentionEveryone: Boolean,
     mentions: Array<Object>,
